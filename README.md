@@ -15,5 +15,5 @@ AtCoderの解答コードと、コンテスト中の考察メモ・振り返り�
 
 - [ABC212 D — Querying Multiset](ABC212/D/review.md)
 - [ABC213 D — Takahashi Tour](ABC213/D/review.md)
-- [ABC214 D — Sum of Maximum Weights（修正後AC未確認）](ABC214/D/review.md)
+- [ABC214 D — Sum of Maximum Weights](ABC214/D/review.md)
 - [AGC079 A — Tree Contraction Sequence](AGC079/A/review.md)
