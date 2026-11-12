@@ -1,8 +1,8 @@
 # ABC223 D — Restricted Permutation
 
 - 問題: https://atcoder.jp/contests/abc223/tasks/abc223_d
-- 状態: **修正案を保存（AC未確認）**。`main.cpp` はAC確認後に保存。
-- 修正案: [draft.cpp](draft.cpp)
+- 状態: **AC（本人確認済み）**。重複辺の修正後にAC。
+- 最終ACコード: [main.cpp](main.cpp)（修正前の試行錯誤は [draft.cpp](draft.cpp) と [memo.txt](memo.txt) に記録）
 - 試行錯誤: [memo.txt](memo.txt)
 
 ## 発想
@@ -29,7 +29,7 @@ if (edge[i].empty()) S.push(i);
 
 重複投入があると誤った重複出力でWAになるだけでなく、重複処理が連鎖してTLEになり得る。
 
-## 修正案
+## 修正後のACコード
 
 ```cpp
 if (edge[i].erase(e) && edge[i].empty()) S.push(i);
@@ -43,4 +43,4 @@ if (edge[i].erase(e) && edge[i].empty()) S.push(i);
 ## 振り返り
 
 グラフへの帰着・辞書順最小の貪欲法・優先度付きキューへの改善は自力。データ構造を変更しても「各頂点が一度だけ候補に入る」という不変条件を保証する必要がある。
-修正版のAC確認後、`draft.cpp` から `main.cpp` を記録する。
+修正版のACを確認し、`main.cpp` に保存した。今回の重要な学びは、優先度付きキューに同じ頂点を重複投入しないという不変条件を守ること。
