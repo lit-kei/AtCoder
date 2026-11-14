@@ -16,3 +16,13 @@ ABC484 E — 未AC、コンテスト中の考察
 - 区間加算＋一点取得という設計は筋が通っている
 - 逆に「過去の累積和を一点追加＋区間個数照会」へ書き換えれば通常の segtree / BIT でもよい
 - 元コードは未完成のため main.cpp は作成しない（attempt1_solve.cpp / attempt2_solve.cpp に途中の solve 関連部分を保存）
+
+【コンテスト後: AC】
+ACLのセグ木を学んで、区間加算・一点取得の発想を一点加算・区間和へ書き換えた。
+累積和 S[j] を先に追加してから、[S[j+1]-R, S[j+1]-L] の出現数を問い合わせる。
+座標圧縮は S[0],...,S[N] の値だけで十分。
+lower_bound / upper_bound で seg.prod(left,right) の半開区間を指定する。
+ACL: segtree<ll, op, e> seg(sz(q));
+op(a,b)=a+b、e()=0。点加算は seg.set(p,seg.get(p)+1)。
+時間 O(N log N)、空間 O(N)。
+最終ACコードは main.cpp に保存。
