@@ -17,3 +17,4 @@ AtCoderの解答コードと、コンテスト中の考察メモ・振り返り�
 - [ABC213 D — Takahashi Tour](ABC213/D/review.md)
 - [ABC214 D — Sum of Maximum Weights](ABC214/D/review.md)
 - [AGC079 A — Tree Contraction Sequence](AGC079/A/review.md)
+- [ABC484 F — Make them monochrome](ABC484/F/review.md)
