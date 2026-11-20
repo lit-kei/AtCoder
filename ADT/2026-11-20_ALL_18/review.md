@@ -16,7 +16,7 @@
 | A — [ABC370 A: Raise Both Hands](../../ABC370/A/review.md) | 100 | 1:09 | [80949483](https://atcoder.jp/contests/adt_all_20261120_2/submissions/80949483) |
 | B — [ABC346 A: Adjacent Product](../../ABC346/A/review.md) | 100 | 2:10 | [80949512](https://atcoder.jp/contests/adt_all_20261120_2/submissions/80949512) |
 | C — [ABC433 B: Nearest Taller](../../ABC433/B/review.md) | 200 | 7:59 | [80949637](https://atcoder.jp/contests/adt_all_20261120_2/submissions/80949637) |
-| D | 200 | 11:50 | [80949704](https://atcoder.jp/contests/adt_all_20261120_2/submissions/80949704) |
+| D — [ABC464 B: Crop](../../ABC464/B/review.md) | 200 | 11:50 | [80949704](https://atcoder.jp/contests/adt_all_20261120_2/submissions/80949704) |
 | E | 300 | 25:43 | [80949879](https://atcoder.jp/contests/adt_all_20261120_2/submissions/80949879) |
 | F | 300 | 53:37 | [80950218](https://atcoder.jp/contests/adt_all_20261120_2/submissions/80950218) |
 | G | — | — | 未AC |
@@ -38,4 +38,4 @@
 - **出題元 `ABCxxx/Y/review.md`:** 解法、正当性、計算量、自力での気づきや反省。
 - 元のABCとADTの対応が確認できた問題から、本ファイルから各問題の記録へリンクを追加する。
 
-※数値は本人が共有した順位表と補足に基づく。A〜C問題は本人が共有したコード・出題元リンクを確認済み。D〜Fの提出コードと出題元ABCは未確認。
+※数値は本人が共有した順位表と補足に基づく。A〜C問題は本人が共有したコード・出題元リンクを確認済み。Dの出題元はABC464 Bと確認済み（最終ACコード全文は再取得待ち）。E〜Fの提出コードと出題元ABCは未確認。
