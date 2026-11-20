@@ -13,7 +13,7 @@
 
 | 問題 | 得点 | AC時刻 | 提出 |
 | --- | ---: | ---: | --- |
-| A | 100 | 1:09 | [80949483](https://atcoder.jp/contests/adt_all_20261120_2/submissions/80949483) |
+| A — [ABC370 A: Raise Both Hands](../../ABC370/A/review.md) | 100 | 1:09 | [80949483](https://atcoder.jp/contests/adt_all_20261120_2/submissions/80949483) |
 | B | 100 | 2:10 | [80949512](https://atcoder.jp/contests/adt_all_20261120_2/submissions/80949512) |
 | C | 200 | 7:59 | [80949637](https://atcoder.jp/contests/adt_all_20261120_2/submissions/80949637) |
 | D | 200 | 11:50 | [80949704](https://atcoder.jp/contests/adt_all_20261120_2/submissions/80949704) |
@@ -36,6 +36,6 @@
 - **このファイル:** ADTごとの順位・得点・AC時刻・WA・休憩などの参加記録。
 - **出題元 `ABCxxx/Y/main.cpp`:** 最終ACコード。
 - **出題元 `ABCxxx/Y/review.md`:** 解法、正当性、計算量、自力での気づきや反省。
-- 元のABCとADTの対応が確認できたら、本ファイルから各問題の記録へリンクを追加する。
+- 元のABCとADTの対応が確認できた問題から、本ファイルから各問題の記録へリンクを追加する。
 
-※数値は本人が共有した順位表と補足に基づく。提出コードや出題元ABCをまだ直接確認できていないため、個別解法を捏造しない。
+※数値は本人が共有した順位表と補足に基づく。A問題は本人が共有したコード・出題元リンクを確認済み。B〜Fの提出コードと出題元ABCは未確認。
